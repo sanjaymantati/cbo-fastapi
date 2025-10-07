@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi_app
+    env_file:
+      - .env
+    ports:
+      - "8555:80"
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 200M

@@ -1,0 +1,10 @@
+openai
+pandas
+requests
+kiteconnect
+matplotlib
+fastapi
+uvicorn
+apscheduler
+markdown2
+tabulate
