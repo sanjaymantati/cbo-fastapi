@@ -1,0 +1,13 @@
+PORT=80
+KITE_API_KEY=xxx
+KITE_API_SECRET=xxx
+KITE_API_ACCESS_TOKEN=xxx
+KITE_URL=https://kite.zerodha.com/connect/login?v=3&api_key=xxxxx
+OPENAI_API_KEY=xxxxx
+OPENAI_BASE_URL=https://api.deepseek.com/v1
+HISTORICAL_DATA_INTERVAL=5minute
+SMTP_PASSCODE=xxx
+SMPT_EMAIL=sender@email.com
+PERSONAL_EMAIL=receiver@email.com
+SECURITIES_TO_WATCH=comma,separated,securities,to,watch
+TZ=Asia/Kolkata
